@@ -14,6 +14,28 @@ body {
   background: url(Weblist_background.webp) no-repeat;
   background-size: cover;
   background-position: center;
+
+  @media screen and (max-width: 767px) {
+    .description {
+      max-width: auto;
+      height: auto;
+    }
+    .button {
+      text-align: center;
+    }
+    .btn {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      max-width: 100%;
+      height: auto;
+    }
+    .list {
+      width: auto;
+      height: auto;
+      font-size: auto;
+    }
+  }
 }
 
 .description {
