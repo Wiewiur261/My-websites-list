@@ -16,6 +16,13 @@ body {
   background-position: center;
 }
 
+.description-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .description {
   display: flex;
   margin: 20px 280px;
