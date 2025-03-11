@@ -16,6 +16,18 @@ body {
   background-position: center;
 }
 
+@media screen and (max-width: 767px) {
+  .description-content {
+    grid-area: 1 / span 6;
+  }
+  .btn-overlay {
+    grid-area: 1 / span 6;
+  }
+  .list {
+    grid-area: 1 / span 6;
+  }
+}
+
 .description-content {
   display: flex;
   flex-direction: column;
